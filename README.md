@@ -37,9 +37,10 @@ This repository shows how PSCC is trained with/without DCL strategy. Relevant ex
 If you use the code, please cite the following paper:
 
 ```
-@ARTICLE{2020DCLCC,
-  author={Q. {Wang} and W. {Lin} and J. {Gao} and X. {Li}},
-  journal={IEEE Transactions on Cybernetics}, 
-  title={Density-aware Curriculum Learning for Crowd Counting}, 
-  year={2020}
+@article{wang2020Density,
+  title={Density-aware Curriculum Learning for Crowd Counting},
+  author={ Wang, Qi  and  Lin, Wei  and  Junyu, Gao and Xuelong, Li },
+  journal={IEEE Transactions on Cybernetics},
+  year={2020},
+}
 ```
