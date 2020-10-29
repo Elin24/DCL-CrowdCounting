@@ -39,7 +39,7 @@ If you use the code, please cite the following paper:
 ```
 @article{wang2020Density,
   title={Density-aware Curriculum Learning for Crowd Counting},
-  author={ Wang, Qi  and  Lin, Wei  and  Junyu, Gao and Xuelong, Li },
+  author={ Wang, Qi  and  Lin, Wei  and  Gao, Junyu and Li, Xuelong },
   journal={IEEE Transactions on Cybernetics},
   year={2020},
 }
