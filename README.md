@@ -5,12 +5,6 @@ This is an official implementaion of the paper "Density-aware Curriculum Learnin
 
 ![DCL-Crowd Counting](images/dclflow.png)
 
-| PSCC |MAE | MSE |
-|:-:|:-:|:-:|
-Random Sampling | 66.82 | 109.35
-Density-aware CL | **64.97** | **107.96**
-
-
 This repository shows how PSCC is trained with/without DCL strategy. Relevant experiment processes are shown in `process_reports`.
 
 - `normal.log` demonstrates the process of PSCC under random sampling.
@@ -19,7 +13,7 @@ This repository shows how PSCC is trained with/without DCL strategy. Relevant ex
 
 # Requirements
 
-- Python 2.7 (It is 2019 when submiting the paper. `py3` will be support in the future.)
+- Python 2.7 (It is 2019 when submiting the paper. **py3** will be supported in the future.)
 - Pytorch 1.2.0
 - TensorboardX
 - torchvision 0.4.0
@@ -37,6 +31,13 @@ This repository shows how PSCC is trained with/without DCL strategy. Relevant ex
     - Without DCL, set `__C.DCL_CONF['work'] = False`
     - With DCL, set `__C.DCL_CONF['work'] = True`
 2. `python train.py`
+
+# Experiment Results
+
+| PSCC |MAE | MSE |
+|:-:|:-:|:-:|
+Random Sampling | 66.82 | 109.35
+Density-aware CL | **64.97** | **107.96**
 
 # Citation
 
