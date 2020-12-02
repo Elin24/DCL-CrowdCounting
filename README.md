@@ -2,6 +2,7 @@
 
 This is an official implementaion of the paper "Density-aware Curriculum Learning for Crowd Counting", completed in November 2019, accepted by T-CYB in October 2020.
 
+[IEEE link](https://ieeexplore.ieee.org/document/9275392)[pdf download](http://crabwq.github.io/pdf/2020%20Density-aware%20Curriculum%20Learning%20for%20Crowd%20Counting.pdf)
 
 ![DCL-Crowd Counting](images/dclflow.png)
 
@@ -44,10 +45,13 @@ Density-aware CL | **64.97** | **107.96**
 If you use the code, please cite the following paper:
 
 ```
-@article{wang2020Density,
-  title={Density-aware Curriculum Learning for Crowd Counting},
-  author={ Wang, Qi  and  Lin, Wei  and  Gao, Junyu and Li, Xuelong },
-  journal={IEEE Transactions on Cybernetics},
+@ARTICLE{9275392,
+  author={Q. {Wang} and W. {Lin} and J. {Gao} and X. {Li}},
+  journal={IEEE Transactions on Cybernetics}, 
+  title={Density-Aware Curriculum Learning for Crowd Counting}, 
   year={2020},
-}
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TCYB.2020.3033428}}
 ```
